@@ -11,12 +11,9 @@ handlers.SetUserReadonlyData = function (params) {
   return result;
 };
 
-handlers.GetAllUserReadOnlyData = function (args) {
+handlers.GetAllUserReadOnlyData = function (params) {
   var result = server.GetUserReadOnlyData({ 
     PlayFabId: currentPlayerId 
   });
   return result;
 };
-
-
-
